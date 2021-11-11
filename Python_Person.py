@@ -26,7 +26,7 @@ def tf_person():
     global glueContext
     global person_fr
 
-    # Aplicando tf tipo apply_mapping a columnas id (DOUBLE), sporting_event_id (DOUBLE) y ticketholder_id(DOUBLE) según workshop
+    # Aplicando tf tipo apply_mapping a columnas id (DOUBLE) según workshop
     person_fr = person_fr.apply_mapping([('id', 'string', 'id', 'double'),('full_name', 'string', 'full_name', 'string'),('last_name', 'string', 'last_name', 'string'),('first_name', 'string', 'first_name', 'string')])
     
 """
@@ -35,7 +35,7 @@ def tf_person():
 
 """
 *************************************************
-Definición de varibles globales
+Definición de variables globales
 *************************************************
 """
 global glueContext
@@ -46,7 +46,7 @@ global person_fr
 
 """
 *************************************************
-Definición de varibles locales y constantes
+Definición de variables locales y constantes
 *************************************************
 """
 # Inicializar variblas con nombre db y tablas a utilizar
