@@ -59,7 +59,7 @@ output_s3_dir = 's3://testsumman/tickets/dms_parquet/sporting_event_ticket/'
 +++++++++++++++++++++++++++++++++++++++++++++++++
 """
 
-#******************** MAIN ************************
+#******************** MAIN ************************ 
 # Inicializar el GlueContext
 glueContext = GlueContext(SparkContext.getOrCreate())
 
