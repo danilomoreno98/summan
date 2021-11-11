@@ -1,2 +1,2 @@
 # summan
-Repo para scritps utilizados en el desarrollo de Data Engineerinf Immersion Day
+Repo para scritps utilizados en el desarrollo de Data Engineering Immersion Day
