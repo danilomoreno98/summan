@@ -61,7 +61,7 @@ output_s3_dir = 's3://testsumman/tickets/dms_parquet/sporting_event/'
 
 #******************** MAIN ************************
 # Inicializar el GlueContext
-glueContext = GlueContext(SparkContext.getOrCreate())
+glueContext = GlueContext(SparkContext.getOrCreate()) 
 
 # Creación de los Dynamic Frames de las tablas de origen (tabla = sporting_Event)
 sporting_Event = glueContext.create_dynamic_frame.from_catalog(database=db_name, table_name=tbl_name)
