@@ -46,7 +46,7 @@ global sporting_event_ticket_fr
 
 """
 *************************************************
-Definición de varibles locales y constantes
+Definición de variables locales y constantes
 *************************************************
 """
 # Inicializar variables con nombre db y tablas a utilizar
