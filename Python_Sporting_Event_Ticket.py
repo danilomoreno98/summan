@@ -35,7 +35,7 @@ def tf_sporting_Event_Ticket():
 
 """
 *************************************************
-Definición de varibles globales
+Definición de variables globales
 *************************************************
 """
 global glueContext
@@ -49,7 +49,7 @@ global sporting_event_ticket_fr
 Definición de varibles locales y constantes
 *************************************************
 """
-# Inicializar variblas con nombre db y tablas a utilizar
+# Inicializar variables con nombre db y tablas a utilizar
 db_name = "dbticketdata"     # Nombre de la base de datos
 tbl_name = "sporting_event_ticket"  # Nombre de la tabla a utilizar
 
